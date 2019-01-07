@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Spirala2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Button-->
+    <string name="btnGenres">Kategorije</string>
+    <string name="btnAuthors">Autori</string>
+    <string name="btnSearch">Pretraži</string>
+    <string name="btnAddGenre">Dodaj Kategoriju</string>
+    <string name="btnAddBook">Dodaj Knjigu</string>
+    <string name="btnAddOnline"> Dodaj Online </string>
+    <string name="btnBack">Povratak</string>
+    <string name="btnAddImage">Izaberi Sliku</string>
+    <string name="btnCancel">Poništi</string>
+    <string name="btnSuggest"> Predloži </string>
+    <string name="btnSend"> Pošalji </string>
+    <!--EditText-->
+    <string name="etAuthor">Ime autora</string>
+    <string name="etBook">Naziv knjige</string>
+    <string name="etQuery">Upit</string>
+    <!--ListView-->
+    <string name="etNumBooks">Broj Knjiga: </string>
+    <!--Toast-->
+    <string name="tErrorGenre"> GREŠKA! Dodaj kategoriju </string>
+    <string name="tErrorBook"> GREŠKA! Potrebno je popuniti sva polja </string>
+    <string name="tAddedBook"> Knjiga uspiješno dodana u listu</string>
+    <string name="tImageError"> Došlo je do greške! </string>
+    <string name="tErrorNoImg"> GREŠKA! Niste izabrali sliku </string>
+
+</resources>

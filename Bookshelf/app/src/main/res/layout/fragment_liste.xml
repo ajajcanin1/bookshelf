@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollview2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorMainBackground"
+    tools:context="ba.unsa.etf.rma.ajdin_jajcanin.spirala2.ListeFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/dKategorije"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0.6"
+                android:width="@android:dimen/app_icon_size"
+                android:background="@drawable/roundedbutton"
+                android:text="@string/btnGenres" />
+
+            <Button
+                android:id="@+id/dAutori"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.6"
+                android:width="@android:dimen/app_icon_size"
+                android:background="@drawable/roundedbutton"
+                android:text="@string/btnAuthors" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/pretraziLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/tekstPretraga"
+                android:layout_width="174dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:background="@color/colorEditText"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+
+
+            <Button
+                android:id="@+id/dPretraga"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:width="@android:dimen/app_icon_size"
+                android:background="@drawable/roundedbutton"
+                android:text="@string/btnSearch" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/dDodajKategoriju"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.6"
+                android:background="@drawable/roundedbutton"
+                android:enabled="false"
+                android:text="@string/btnAddGenre" />
+
+            <Button
+                android:id="@+id/dDodajKnjigu"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.6"
+                android:width="@android:dimen/app_icon_size"
+                android:background="@drawable/roundedbutton"
+                android:text="@string/btnAddBook" />
+            <Button
+                android:id="@+id/dDodajOnline"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0.6"
+                android:width="@android:dimen/app_icon_size"
+                android:background="@drawable/roundedbutton"
+                android:text="@string/btnAddOnline" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listaKategorija"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/colorBackground" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
+</ScrollView>

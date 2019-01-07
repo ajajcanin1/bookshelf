@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Spirala2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Button-->
+    <string name="btnGenres">Categories</string>
+    <string name="btnAuthors">Authors</string>
+    <string name="btnSearch">Search</string>
+    <string name="btnAddGenre">Add Category</string>
+    <string name="btnAddBook">Add Book</string>
+    <string name="btnAddOnline"> Add Online </string>
+    <string name="btnBack">Back</string>
+    <string name="btnAddImage">Choose Image</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="btnSuggest"> Suggest </string>
+    <string name="btnSend"> Send </string>
+    <!--EditText-->
+    <string name="etAuthor">Authors name</string>
+    <string name="etBook">Books title</string>
+    <string name="etQuery">Query</string>
+    <!--ListView-->
+    <string name="etNumBooks">Number of Books: </string>
+    <!--Toast-->
+    <string name="tErrorGenre"> ERROR! Add Category </string>
+    <string name="tErrorBook"> ERROR! You must fill in all of the fields </string>
+    <string name="tAddedBook"> Book successfully added to your list</string>
+    <string name="tImageError"> There was an error </string>
+    <string name="tErrorNoImg"> ERROR! No image selected </string>
+
+
+</resources>
